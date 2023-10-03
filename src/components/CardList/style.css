@@ -1,0 +1,59 @@
+.main {
+  padding: 2rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  gap: 5.5rem;
+  margin-top: 3rem;
+}
+#list_cards {
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-flow: row wrap;
+}
+
+.others_cards {
+  margin-top: "2rem";
+}
+.cardBox {
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  width: 310px;
+  border-radius: 1rem;
+
+  & .title_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: black;
+    opacity: 0.8;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+}
+
+.tools {
+  display: flex;
+  justify-content: space-between;
+
+  & button {
+    font-size: 1.25rem;
+  }
+
+  & > div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 843px) {
+  .main {
+    padding: 0.5rem;
+  }
+  #title {
+    margin-left: 1rem;
+  }
+}

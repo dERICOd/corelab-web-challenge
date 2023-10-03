@@ -1,0 +1,39 @@
+input {
+  outline: none;
+  border: none;
+}
+
+.CardForm_section {
+  margin: auto;
+  width: 40%;
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 0.25rem;
+  padding: 0 1rem;
+
+  & .title_wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 1rem;
+
+    & input {
+      width: 100%;
+
+      &::placeholder {
+        color: black;
+        opacity: 0.8;
+        font-size: 0.8rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  & .noteContent_wrapper {
+    width: 100%;
+
+    & input {
+      width: 100%;
+      padding: 1rem 0;
+    }
+  }
+}

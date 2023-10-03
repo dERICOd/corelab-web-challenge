@@ -1,0 +1,26 @@
+.modal {
+  position: absolute;
+  top: 24vh;
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  background-color: #fffafa;
+  z-index: 999;
+
+  & .optionsList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.25rem;
+  }
+
+  & .optionsListItems {
+    list-style-type: none;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+}
